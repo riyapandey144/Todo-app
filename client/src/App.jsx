@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import Main from "./components/Main";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import userContext from "./context/user/UserContext";
+import userContext from "./context/user/userContext";
 import todosContext from "./context/todos/todoContext";
 function App() {
   const [theme, setTheme] = useState();
