@@ -11,7 +11,7 @@ require("dotenv").config();
 require("./config/db.js");
 
 const corsOptions = {
-  origin: " http://localhost:5173",
+  origin: "https://todo-app-1-orm6.onrender.com",
   method: ["GET", "POST", "PUT", "DELETE"],
 };
 

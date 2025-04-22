@@ -14,7 +14,7 @@ const isPasswordValid = (password) => {
 
 const UserProvider = ({ children }) => {
   // URL:
-  let base = "http://localhost:5500";
+  let base = "https://todo-app-jhdp.onrender.com";
   let path = "/user/";
   let url = new URL(path, base).href;
 
