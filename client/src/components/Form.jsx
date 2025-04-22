@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import userContext from "../context/user/UserContext";
+import userContext from "../context/user/userContext";
 import InputTag from "./InputTag";
 
 /* eslint-disable react/prop-types */

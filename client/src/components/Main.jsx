@@ -8,7 +8,7 @@ import moon from "../assets/images/icon-moon.svg";
 import sun from "../assets/images/icon-sun.svg";
 import Form from "./Form";
 import Card from "./Card";
-import userContext from "../context/user/UserContext";
+import userContext from "../context/user/userContext";
 import todoContext from "../context/todos/todoContext";
 
 const Main = ({ theme, setTheme, showForm, setShowForm }) => {
